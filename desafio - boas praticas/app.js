@@ -10,13 +10,13 @@ Crie uma variável chamada "nome" e atribua a ela o seu nome. Em seguida, utiliz
 */
 
 let nome = 'giullia';
-console.log(´Óla, ${nome}´);
+console.log(`Óla, ${nome}`);
 
 /*
 Crie uma variável chamada "nome" e atribua a ela o seu nome. Em seguida, utilize o alert para exibir a mensagem "Olá, [seu nome]!" .
 */
 
-alert(´Óla, ${nome}´);
+alert(`Óla, ${nome}`);
 
 /*
 Utilize o prompt e faça a seguinte pergunta: Qual a linguagem de programação que você mais gosta?. Em seguida, armazene a resposta em uma variável e mostre no console do navegador.
