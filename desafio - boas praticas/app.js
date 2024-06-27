@@ -68,12 +68,41 @@ if (num > 0) {
 
 /*
 Use um loop while para imprimir os números de 1 a 10 no console.
+*/
+let valor = 1;
+while (valor < 10) {
+    console.log(valor)
+    valor++
+}
 
-Crie uma variável "nota" e atribua um valor numérico a ela. Use if-else para determinar se a nota é maior ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
+/*
+Crie uma variável "nota" e atribua um valor numérico a ela. 
+Use if-else para determinar se a nota é maior ou igual a 7 e exiba "Aprovado" ou "Reprovado" no console.
+*/
 
+let nota = 2;
+if (nota >= 7) {
+    console.log('Aprovado');
+} else {
+    console.log('Reprovado')
+}
+/*
 Use o Math.random para gerar qualquer número aleatório e exiba esse número no console.
+*/
 
+let numero = Math.random();
+console.log(numero);
+
+/*
 Use o Math.random para gerar um número inteiro entre 1 e 10 e exiba esse número no console.
+*/
 
+let inteiro = Math.floor(Math.random() * 10 + 1);
+console.log(inteiro)
+
+/*
 Use o Math.random para gerar um número inteiro entre 1 e 1000 e exiba esse número no console.
 */
+
+let milhar = Math.floor(Math.random() * 1000 + 1);
+console.log(milhar)
